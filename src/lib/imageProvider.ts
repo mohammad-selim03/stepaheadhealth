@@ -16,7 +16,7 @@ import verify from "../assets/images/verify.png";
 import profilePic from "../assets/images/profile.jpg";
 import card1 from "../assets/images/Card1.png";
 import card2 from "../assets/images/card2.png";
-import card3 from "../assets/images/Card3.png";
+import card3 from "../assets/images/card3.png";
 import card4 from "../assets/images/Card4.png";
 import smart from "../assets/images/smart.png";
 import start from "../assets/images/start.png";

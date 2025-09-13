@@ -45,7 +45,7 @@ const TopSection = () => {
   const { t } = useTranslation("patientdashboard");
   const [open, setOpen] = useState(false);
   const [fileList, setFileList] = useState<UploadFile[]>([]);
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [setIsSubmitting] = useState(false);
   const { data, isLoading, error } = useQuery<Inputs>({
     queryKey: ["patient-profile,"],
     queryFn: () => GetData("patient/profile"),
@@ -123,7 +123,7 @@ const TopSection = () => {
   });
 
   const onSubmit: SubmitHandler<Inputs> = async (formData) => {
-    setIsSubmitting(true);
+    // setIsSubmitting(true);
 
     try {
       const formPayload = new FormData();
@@ -174,7 +174,7 @@ const TopSection = () => {
     } catch (error) {
       toast.error(error?.message || t("failedToSubmitPrescription"));
     } finally {
-      setIsSubmitting(false);
+      // setIsSubmitting(false);
     }
   };
 
@@ -184,7 +184,10 @@ const TopSection = () => {
         <Toaster />
         <div>
           <p className="font-nerisSemiBold md:text-[32px] text-2xl">
-            {t("welcome", { firstName: data?.firstName, lastName: data?.lastName })}
+            {t("welcome", {
+              firstName: data?.firstName,
+              lastName: data?.lastName,
+            })}
           </p>
           {/* <p className="text-white font-nerisLight md:text-base text-xs">
             Here's what's coming up and your recent activity.
@@ -239,7 +242,8 @@ const TopSection = () => {
                           {/* Name */}
                           <div className="flex gap-2 items-start flex-col mt-6">
                             <label className="text-textPrimary font-nerisSemiBold">
-                              {t("name")} <span className="text-[#FF3B30]"> * </span>
+                              {t("name")}{" "}
+                              <span className="text-[#FF3B30]"> * </span>
                             </label>
                             <input
                               {...register("name", { required: true })}
@@ -319,7 +323,9 @@ const TopSection = () => {
                         {pharmacyDataLoading ? (
                           <Loader />
                         ) : pharmacyDataError ? (
-                          <p className="text-center py-10">{t("noDataFound")}</p>
+                          <p className="text-center py-10">
+                            {t("noDataFound")}
+                          </p>
                         ) : (
                           <div className="pt-5">
                             <h3 className="text-xl font-semibold mb-4">
@@ -327,7 +333,9 @@ const TopSection = () => {
                             </h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                               <div>
-                                <p className="font-medium">{t("pharmacyName")}</p>
+                                <p className="font-medium">
+                                  {t("pharmacyName")}
+                                </p>
                                 <input
                                   className="py-3 px-3 rounded-md border border-gray-200 outline-0 w-full"
                                   readOnly
@@ -396,7 +404,6 @@ const TopSection = () => {
                               fileList={fileList}
                               onChange={onChange}
                               beforeUpload={beforeUpload}
-                              className="upload-custom"
                               maxCount={10}
                               showUploadList={false}
                             >

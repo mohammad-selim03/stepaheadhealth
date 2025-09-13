@@ -391,8 +391,7 @@ const TopSection = () => {
                               name="avatar"
                               fileList={fileList}
                               onChange={onChange}
-                              beforeUpload={beforeUpload}
-                              className="upload-custom"
+                              beforeUpload={beforeUpload} 
                               maxCount={10}
                               showUploadList={false}
                             >
