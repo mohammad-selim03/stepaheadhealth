@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "nerisLight";
+  src: url("../public/neris/Neris-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "nerisSemiBold";
+  src: url("../public/neris/Neris-SemiBold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "nerisBlack";
+  src: url("../public/neris/Neris-Black.otf");
+  font-weight: 900;
+}
+@import "tailwindcss";
+
+@theme {
+  --color-primaryColor: #195b91;
+  --color-textPrimary: #191919;
+  --color-textSecondary: #5a5c5f;
+
+  --font-Poppins: "Poppins", sans-serif;
+  --font-nerisLight: "nerisLight", sans-serif;
+  --font-nerisSemiBold: "nerisSemiBold", sans-serif;
+  --font-nerisBlack: "nerisBlack", sans-serif;
+
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 576px;
+  --breakpoint-lg: 768px;
+  --breakpoint-xl: 1024px;
+  --breakpoint-2xl: 1200px;
+  --breakpoint-3xl: 1460px;
+  --breakpoint-4xl: 1650px;
+}
+
+.custom-steps .ant-steps-item-tail::after {
+  background-color: #55c9ea !important;
+  height: 4px !important;
+}
+
+.custom-steps
+  .ant-steps-item-finish:not(.ant-steps-item-process)
+  .ant-steps-item-tail::after {
+  background-color: #195b91 !important;
+}
+
+.upload-custom {
+  margin: 40px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.upload-custom .ant-upload,
+.upload-custom .ant-upload-select-picture-card,
+.upload-custom .ant-upload-list-item,
+.upload-custom .ant-upload-list-item-container,
+.upload-custom .ant-upload-list-item-list-type-picture-card {
+  width: 100% !important;
+  max-width: 600px !important;
+  height: 300px !important;
+  background-color: #f2f8ff !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.active-icon-style {
+  fill: var(--Bg, #f8f9fa);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.custom-modal-bg .ant-modal-content {
+  min-height: 80%;
+  box-shadow: none !important;
+}
+
+.custom-steps .ant-steps-item {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-inline-end: 5px;
+}
+
+@media (max-width: 768px) {
+  .custom-steps .ant-steps-item {
+    padding-inline-end: 8px !important;
+  }
+}
+
+.custom-steps .ant-steps-horizontal {
+  margin-inline: 0;
+  padding-inline: 0;
+}
+.custom-steps.ant-steps-horizontal {
+  width: 100% !important;
+}
+
+.no-padding-drawer .ant-drawer-body {
+  padding: 0 !important;
+}
+
+/* your css file e */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

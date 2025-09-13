@@ -1,0 +1,232 @@
+{
+  "hero": {
+    "title": "Equilibrio y Sanación con StepAhead Health",
+    "description": "El objetivo principal de StepAhead Health es apoyar la solución continua al sistema de salud en los Estados Unidos, con el propósito principal de ayudar a las personas desfavorecidas (aquellos sin seguro y que viven en zonas remotas) a acceder a una mejor atención médica.",
+    "providers": "Proveedores",
+    "patientsHelped": "Pacientes Ayudados",
+    "cardDescription": "El objetivo principal de StepAhead Health es apoyar la solución continua a la atención médica en los Estados Unidos con el objetivo principal de ayudar a los desfavorecidos (aquellos sin seguro y que viven in áreas remotas) a tener acceso a una mejor atención médica."
+  },
+  "telehealth": {
+    "title": "Obtenga una receta de nuestros principales proveedores",
+    "subtitle": "¿No conoce los medicamentos? No se preocupe, nuestros proveedores experimentados le recetarán el medicamento.",
+    "steps": {
+      "one": {
+        "title": "Crear una cuenta",
+        "description": "Regístrese con su nombre, correo electrónico y dirección. Acceda de forma segura a sus recetas en cualquier momento."
+      },
+      "two": {
+        "title": "Buscar farmacia",
+        "description": "Encuentre farmacias autorizadas cerca de usted por código postal. Elija opciones de recogida o entrega a domicilio."
+      },
+      "three": {
+        "title": "Describir la enfermedad",
+        "description": "Comparta sus síntomas e historial médico en línea. Suba las recetas existentes si están disponibles."
+      },
+      "four": {
+        "title": "Confirmar y pagar",
+        "description": "Revise su pedido y la cobertura del seguro. Pague de forma segura con tarjeta, con soporte de stripe"
+      },
+      "five": {
+        "title": "Esperar la aprobación",
+        "description": "Un proveedor registrado y autorizado revisa y envía su receta a la farmacia."
+      }
+    }
+  },
+  "certified": {
+    "title": "Certificado por Surescripts",
+    "description1": "Surescripts Network Alliance™ incluye prácticamente todos los EHR, PBM, farmacias y médicos, además de un número cada vez mayor de planes de salud, organizaciones de atención a largo plazo y posaguda y organizaciones de farmacias especializadas que se conectan a la red de Surescripts.",
+    "description2": "Surescripts Network Alliance se reúne para proporcionar inteligencia procesable que mejora la prescripción, informa las decisiones de atención y hace avanzar la industria de la salud."
+  },
+  "refill": {
+    "title": "Obtenga una receta de nuestros principales proveedores",
+    "subtitle": "¿No conoce los medicamentos? No se preocupe, nuestros proveedores experimentados le recetarán el medicamento.",
+    "steps": {
+      "one": {
+        "title": "Crear una cuenta",
+        "description": "Regístrese con su nombre, correo electrónico y dirección. Acceda de forma segura a sus recetas en cualquier momento."
+      },
+      "two": {
+        "title": "Buscar farmacia",
+        "description": "Encuentre farmacias autorizadas cerca de usted por código postal. Elija opciones de recogida o entrega a domicilio."
+      },
+      "three": {
+        "title": "Describir la enfermedad",
+        "description": "Comparta sus síntomas e historial médico en línea. Suba las recetas existentes si están disponibles."
+      },
+      "four": {
+        "title": "Confirmar y pagar",
+        "description": "Revise su pedido y la cobertura del seguro. Pague de forma segura con tarjeta, con soporte de stripe"
+      },
+      "five": {
+        "title": "Esperar la aprobación",
+        "description": "Un proveedor registrado y autorizado revisa y envía su receta a la farmacia."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesita saber para poder utilizar StepAhead Health como un profesional.",
+    "categories": [
+      {
+        "categoryTitle": "Solicitar una recarga",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "¿Puedo resurtir mi receta en línea?",
+            "children": "Sí, muchas farmacias y proveedores de atención médica permiten el resurtido de recetas en línea a través de sus sitios web o aplicaciones móviles. Es posible que necesite una cuenta para acceder a los detalles de su receta."
+          },
+          {
+            "key": 2,
+            "label": "¿Cómo obtengo una recarga de mi receta?",
+            "children": "Puede solicitar una recarga comunicándose directamente con su farmacia, usando su aplicación o pidiéndole a su proveedor de atención médica que le envíe una nueva receta."
+          },
+          {
+            "key": 3,
+            "label": "¿Cómo puedo resurtir mi receta si se me acabaron las recargas?",
+            "children": "Si se le acabaron las recargas, su farmacia puede comunicarse con su prescriptor para obtener autorización, o es posible que deba programar una nueva cita con su médico."
+          },
+          {
+            "key": 4,
+            "label": "¿Dónde puedo obtener una recarga de recetas de emergencia?",
+            "children": "Las recargas de emergencia pueden estar disponibles en farmacias seleccionadas según el medicamento y las leyes estatales. Algunos estados permiten que un farmacéutico emita un suministro de emergencia limitado."
+          },
+          {
+            "key": 5,
+            "label": "¿Se puede surtir una receta en una farmacia diferente?",
+            "children": "Sí, pero normalmente deberá transferir su receta. Por lo general, esto se puede hacer comunicándose con la nueva farmacia, que se encargará de la transferencia por usted."
+          },
+          {
+            "key": 6,
+            "label": "¿Cómo puedo resurtir mi receta sin ver a un médico?",
+            "children": "Algunos medicamentos pueden ser elegibles para recargas de telesalud, but las sustancias controladas o las recetas por primera vez generalmente requieren una consulta en persona o por video."
+          },
+          {
+            "key": 7,
+            "label": "Una nota sobre las recargas de recetas en línea",
+            "children": "Asegúrese siempre de utilizar una farmacia autorizada y de buena reputación. Tenga cuidado con los sitios web que ofrecen medicamentos recetados sin exigir una receta válida."
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Precio de un medicamento",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "¿Puedo resurtir mi receta en línea?",
+            "children": "Sí, muchas farmacias y proveedores de atención médica permiten el resurtido de recetas en línea a través de sus sitios web o aplicaciones móviles. Es posible que necesite una cuenta para acceder a los detalles de su receta."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo obtengo una recarga de mi receta?",
+            "children": "Puede solicitar una recarga comunicándose directamente con su farmacia, usando su aplicación o pidiéndole a su proveedor de atención médica que le envíe una nueva receta."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo puedo resurtir mi receta si se me acabaron las recargas?",
+            "children": "Si se le acabaron las recargas, su farmacia puede comunicarse con su prescriptor para obtener autorización, o es posible que deba programar una nueva cita con su médico."
+          },
+          {
+            "key": 1,
+            "label": "¿Dónde puedo obtener una recarga de recetas de emergencia?",
+            "children": "Las recargas de emergencia pueden estar disponibles en farmacias seleccionadas según el medicamento y las leyes estatales. Algunos estados permiten que un farmacéutico emita un suministro de emergencia limitado."
+          },
+          {
+            "key": 1,
+            "label": "¿Se puede surtir una receta en una farmacia diferente?",
+            "children": "Sí, pero normalmente deberá transferir su receta. Por lo general, esto se puede hacer comunicándose con la nueva farmacia, que se encargará de la transferencia por usted."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo puedo resurtir mi receta sin ver a un médico?",
+            "children": "Algunos medicamentos pueden ser elegibles para recargas de telesalud, but las sustancias controladas o las recetas por primera vez generalmente requieren una consulta en persona o por video."
+          },
+          {
+            "key": 1,
+            "label": "Una nota sobre las recargas de recetas en línea",
+            "children": "Asegúrese siempre de utilizar una farmacia autorizada y de buena reputación. Tenga cuidado con los sitios web que ofrecen medicamentos recetados sin exigir una receta válida."
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Encuentra una farmacia",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "¿Puedo resurtir mi receta en línea?",
+            "children": "Sí, muchas farmacias y proveedores de atención médica permiten el resurtido de recetas en línea a través de sus sitios web o aplicaciones móviles. Es posible que necesite una cuenta para acceder a los detalles de su receta."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo obtengo una recarga de mi receta?",
+            "children": "Puede solicitar una recarga comunicándose directamente con su farmacia, usando su aplicación o pidiéndole a su proveedor de atención médica que le envíe una nueva receta."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo puedo resurtir mi receta si se me acabaron las recargas?",
+            "children": "Si se le acabaron las recargas, su farmacia puede comunicarse con su prescriptor para obtener autorización, o es posible que deba programar una nueva cita con su médico."
+          },
+          {
+            "key": 1,
+            "label": "¿Dónde puedo obtener una recarga de recetas de emergencia?",
+            "children": "Las recargas de emergencia pueden estar disponibles en farmacias seleccionadas según el medicamento y las leyes estatales. Algunos estados permiten que un farmacéutico emita un suministro de emergencia limitado."
+          },
+          {
+            "key": 1,
+            "label": "¿Se puede surtir una receta en una farmacia diferente?",
+            "children": "Sí, pero normalmente deberá transferir su receta. Por lo general, esto se puede hacer comunicándose con la nueva farmacia, que se encargará de la transferencia por usted."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo puedo resurtir mi receta sin ver a un médico?",
+            "children": "Algunos medicamentos pueden ser elegibles para recargas de telesalud, but las sustancias controladas o las recetas por primera vez generalmente requieren una consulta en persona o por video."
+          },
+          {
+            "key": 1,
+            "label": "Una nota sobre las recargas de recetas en línea",
+            "children": "Asegúrese siempre de utilizar una farmacia autorizada y de buena reputación. Tenga cuidado con los sitios web que ofrecen medicamentos recetados sin exigir una receta válida."
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Pagar una factura",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "¿Puedo resurtir mi receta en línea?",
+            "children": "Sí, muchas farmacias y proveedores de atención médica permiten el resurtido de recetas en línea a través de sus sitios web o aplicaciones móviles. Es posible que necesite una cuenta para acceder a los detalles de su receta."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo obtengo una recarga de mi receta?",
+            "children": "Puede solicitar una recarga comunicándose directamente con su farmacia, usando su aplicación o pidiéndole a su proveedor de atención médica que le envíe una nueva receta."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo puedo resurtir mi receta si se me acabaron las recargas?",
+            "children": "Si se le acabaron las recargas, su farmacia puede comunicarse con su prescriptor para obtener autorización, o es posible que deba programar una nueva cita con su médico."
+          },
+          {
+            "key": 1,
+            "label": "¿Dónde puedo obtener una recarga de recetas de emergencia?",
+            "children": "Las recargas de emergencia pueden estar disponibles en farmacias seleccionadas según el medicamento y las leyes estatales. Algunos estados permiten que un farmacéutico emita un suministro de emergencia limitado."
+          },
+          {
+            "key": 1,
+            "label": "¿Se puede surtir una receta en una farmacia diferente?",
+            "children": "Sí, pero normalmente deberá transferir su receta. Por lo general, esto se puede hacer comunicándose con la nueva farmacia, que se encargará de la transferencia por usted."
+          },
+          {
+            "key": 1,
+            "label": "¿Cómo puedo resurtir mi receta sin ver a un médico?",
+            "children": "Algunos medicamentos pueden ser elegibles para recargas de telesalud, but las sustancias controladas o las recetas por primera vez generalmente requieren una consulta en persona o por video."
+          },
+          {
+            "key": 1,
+            "label": "Una nota sobre las recargas de recetas en línea",
+            "children": "Asegúrese siempre de utilizar una farmacia autorizada y de buena reputación. Tenga cuidado con los sitios web que ofrecen medicamentos recetados sin exigir una receta válida."
+          }
+        ]
+      }
+    ]
+  }
+}

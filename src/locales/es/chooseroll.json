@@ -1,0 +1,8 @@
+{
+  "title": "Elige tu rol",
+  "subtitle": "Háganos saber cómo utilizará la aplicación. Seleccione su función a continuación para continuar.",
+  "providerButton": "Como proveedor",
+  "patientButton": "Como paciente",
+  "nextButton": "Siguiente",
+  "error": "Selecciona tu rol"
+}

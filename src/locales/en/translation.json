@@ -1,0 +1,277 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Contact Us": "Contact Us",
+  "Dashboard": "Dashboard",
+  "Logout": "Logout",
+  "Log In or Sign Up": "Log In or Sign Up",
+  "home": {
+    "hero": {
+      "title": "#1 Telemedicine App: Online Doctor Consultation 24/7",
+      "description": "Skip the travel! Get expert medical advice from the comfort of your home. Our Telehealth app connects you with experienced doctors and healthcare providers.",
+      "discount": "First prescription and refill starting at a discount rate!",
+      "patientButton": "Patient? Click Here",
+      "providerButton": "Provider? Click Here",
+      "downloadApp": "Get StepAhead Health on your smartphone. Download the application now!",
+      "googlePlay": "Get it on Google Play",
+      "appStore": "Download it on App Store"
+    },
+    "works": {
+      "title": "How Our Telemedicine App Works?",
+      "description": "Few simple steps to reach your prescription:",
+      "steps": [
+        {
+          "title": "Create New Prescription",
+          "description": "Login to your account and create a new prescription by selecting your medications and desired pharmacy."
+        },
+        {
+          "title": "Wait for Approval",
+          "description": "Our top providers will verify your prescription and give an approval and advice within 15 minutes."
+        },
+        {
+          "title": "Pay and Get Set Go!",
+          "description": "You'll pay the provider fees and tada! your prescription will be sent to your pharmacy."
+        }
+      ]
+    },
+    "service": {
+      "title": "So, Which Telehealth Service Are You Looking For?",
+      "description": "Instant prescription refills, lab tests or online doctor appoinments?",
+      "cards": {
+        "refills": {
+          "title": "Prescription Refills",
+          "description": "Get an instant prescription refill from our top-notch experienced providers seemlessly.",
+          "button": "Request a refills"
+        },
+        "consultation": {
+          "title": "Create New Prescription",
+          "description": "Make a new prescription and send to the doctor",
+          "button": "Create new prescription"
+        }
+      }
+    },
+    "provider": {
+      "title": "Are You a Provider?",
+      "description": "We would be happy to serve you. Sign up for your free telehealth provider account. The health community needs your expertise and practice.",
+      "button": "Create a providers accoount"
+    },
+    "smart": {
+      "title": "Let's Begin Smart",
+      "description": "Get StepAhead Health on your smartphone. <br /> Download our application now!",
+      "googlePlay": "Get it on Google Play",
+      "appStore": "Download it on App Store"
+    },
+    "start": {
+      "title": "Let's Get Started!",
+      "provider": {
+        "title": "Are You A Provider?",
+        "description": "The service allows you to get maximum visibility online and to manage appointments and contacts coming from the site, in a simple and fast way.",
+        "button": "Open Account"
+      },
+      "patient": {
+        "title": "Are You A Patient?",
+        "description": "The service allows you to get maximum visibility online and to manage appointments and contacts coming from the site, in a simple and fast way.",
+        "button": "Sign Up For Free"
+      }
+    },
+    "topdiseases": {
+      "title": "Top Diseases We Treat",
+      "subtitle": "Our experienced providers can help you with a wide range of conditions. Here are some of the most common diseases we treat.",
+      "diseases": [
+        "Allergies",
+        "Conjunctivitis (Pink Eye)",
+        "Gout",
+        "Arthritis",
+        "Ear infection",
+        "Hepatitis",
+        "Bronchitis",
+        "Eczema (Dermatitis)",
+        "Hypothyroidism",
+        "Cardiovascular Diseases",
+        "Fibromyalgia",
+        "Inflammatory Bowel Disease (IBD)",
+        "Chronic Kidney Disease",
+        "Gastroenteritis",
+        "Influenza (Flu)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Gastroesophageal Reflux Disease (GERD)",
+        "Lyme Disease",
+        "Common Cold",
+        "Gastrointestinal issues (e.g., indigestion, reflux)",
+        "Osteoporosis",
+        "Peripheral Artery Disease",
+        "Pneumonia",
+        "Thyroid disorders",
+        "Urinary Tract Infection (UTI)"
+      ]
+    },
+    "topmedicalconditions": {
+      "title": "Top Medical Conditions We Treat",
+      "conditions": [
+        "Abdominal Pain",
+        "Anxiety",
+        "Asthma",
+        "Back Pain",
+        "Changes in Bowel Habits",
+        "Chest pain",
+        "Cognitive Changes (memory loss, confusion)",
+        "Constipation",
+        "Obesity",
+        "Cough",
+        "Swelling",
+        "Vision Problems",
+        "Depression",
+        "Dermatitis (skin inflammation)",
+        "Diabetes",
+        "Diarrhea",
+        "Dizziness",
+        "Fatigue",
+        "Fever",
+        "Hearing Loss",
+        "Skin Rashes",
+        "Sore Throat (Pharyngitis)",
+        "Upper Respiratory infections (colds)",
+        "Weight Loss",
+        "High Cholesterol",
+        "Hypertension (High Blood Pressure)",
+        "Insomnia",
+        "Joint Pain",
+        "Menstrual Disorders",
+        "Migraines/Headaches",
+        "Muscle Aches or Pain",
+        "Nausea",
+        "Sleep Disorders",
+        "Sprains and Strains",
+        "Vertigo"
+      ]
+    },
+    "topmedications": {
+      "title": "Top Medications We Prescribe",
+      "subtitle": "Our experienced providers can prescribe a wide range of medications to help you with your condition.",
+      "medications": [
+        "Albuterol (for asthma)",
+        "Amlodipine (for high blood pressure)",
+        "Amoxicillin (antibiotic)",
+        "Aspirin (blood thinner, pain relief)",
+        "Atorvastatin (for cholesterol)",
+        "Azithromycin (antibiotic)",
+        "Benzonatate (cough suppressant)",
+        "Bupropion (for depression and smoking cessation)",
+        "Carvedilol (for heart failure)",
+        "Celecoxib (nonsteroidal anti-inflammatory drug)",
+        "Cephalexin (antibiotic)",
+        "Citalopram (for depression)",
+        "Clopidogrel (blood thinner)",
+        "Crestor (for cholesterol)",
+        "Doxycycline (antibiotic)",
+        "Duloxetine (for anxiety and depression)",
+        "Escitalopram (for depression and anxiety)",
+        "Esomeprazole (for acid reflux)",
+        "Ezetimibe/Simvastatin (for cholesterol)",
+        "Fluticasone (inhaled corticosteroid)",
+        "Furosemide (diuretic)",
+        "Gabapentin (for nerve pain)",
+        "Hydrochlorothiazide (diuretic)",
+        "Hydrocodone/Acetaminophen (pain relief)",
+        "Ibuprofen (pain relief)",
+        "Levothyroxine (for hypothyroidism)",
+        "Lisinopril (for high blood pressure)",
+        "Lorazepam (anxiety)",
+        "Losartan (for high blood pressure)",
+        "Meloxicam (nonsteroidal anti-inflammatory drug)",
+        "Metformin (for diabetes)",
+        "Metoprolol (for high blood pressure)",
+        "Metronidazole (antibiotic)",
+        "Mirtazapine (for depression)",
+        "Montelukast (for allergies and asthma)",
+        "Mounjaro (weight management)",
+        "Naproxen (pain relief)",
+        "Nexium (for acid reflux)",
+        "Omeprazole (for acid reflux)",
+        "Oxycodone/Acetaminophen (pain relief)",
+        "Ozempic (weight loss)",
+        "Pantoprazole (for acid reflux)",
+        "Prednisone (steroid)",
+        "Quetiapine (for bipolar disorder)",
+        "Ranitidine (acid reducer)",
+        "Sertraline (for depression)",
+        "Simvastatin (for cholesterol)",
+        "Tadalafil (for erectile dysfunction)",
+        "Tamsulosin (for enlarged prostate)",
+        "Tramadol (pain relief)",
+        "Venlafaxine (for depression)",
+        "Warfarin (blood thinner)"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know, so you can use StepAhead Health like a pro.",
+      "faqs": [
+        {
+          "key": 1,
+          "label": "Everything you need to know, so you can use StepAhead Health like a pro.",
+          "children": "Everything you need to know, so you can use StepAhead Health like a pro."
+        },
+        {
+          "key": 2,
+          "label": "A Note About Online Prescription Refills",
+          "children": "A Note About Online Prescription Refills"
+        },
+        {
+          "key": 3,
+          "label": "How Do I Get a Refill on My Prescription?",
+          "children": "How Do I Get a Refill on My Prescription?"
+        },
+        {
+          "key": 4,
+          "label": "How Can I Refill My Prescription if I Have Run Out of Refills?",
+          "children": "How Can I Refill My Prescription if I Have Run Out of Refills?"
+        },
+        {
+          "key": 5,
+          "label": "How Can I Locate a Network Pharmacy in My Area?",
+          "children": "How Can I Locate a Network Pharmacy in My Area?"
+        },
+        {
+          "key": 6,
+          "label": "Where Can I Get an Emergency Prescription Refill?",
+          "children": "Where Can I Get an Emergency Prescription Refill?"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "surescripts": "StepAhead Health is Surescripts certified for prescription renewals.",
+    "certifiedBy": "Certified By",
+    "usefulLinks": "Useful Links",
+    "createProviderAccount": "Create Provider Account",
+    "createPatientAccount": "Create Patient Account",
+    "login": "Login",
+    "termsOfService": "Terms of Service",
+    "getInTouch": "Get To Know Us",
+    "aboutUs": "About Us",
+    "howItWorks": "How it works?",
+    "contact": "Contact",
+    "tollFree": "Toll Free Number: +1-(855)-725-7629",
+    "phone": "Phone: +1-(678)-820-2221",
+    "email": "contact@stepaheadhealth.com",
+    "copyright": "© 2024 Fully Decked Up. All rights reserved"
+  },
+  "welcome_back": "Welcome, {{firstName}} {{lastName}}",
+  "coming_up_activity": "Here's what's coming up and your recent activity.",
+  "completed_request": "Completed Request",
+  "new_request": "New Requset",
+  "in_progress": "In Progress",
+  "something_went_wrong": "Someting went wrong.",
+  "rx_id": "Rx ID",
+  "patient_name": "PatientName",
+  "date": "Date",
+  "type": "Type",
+  "status": "Status",
+  "action": "Action",
+  "view_details": "View Details",
+  "all": "All",
+  "cancel": "Cancel",
+  "overview": "Overview",
+  "something_went_wrong_try_again": "Something went wrong, try again later."
+}

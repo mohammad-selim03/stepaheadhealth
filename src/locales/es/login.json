@@ -1,0 +1,20 @@
+{
+  "title": "Inicio de sesión de cuenta",
+  "emailLabel": "Correo electrónico",
+  "emailPlaceholder": "Ingrese su correo electrónico aquí",
+  "emailRequired": "Correo electronico es requerido",
+  "passwordLabel": "Contraseña",
+  "passwordPlaceholder": "Contraseña",
+  "passwordRequired": "Se requiere contraseña",
+  "passwordMinLength": "La contraseña debe tener al menos 8 caracteres",
+  "loginButton": "Iniciar sesión",
+  "noAccount": "¿No tienes una cuenta?",
+  "registerNow": "Regístrate ahora",
+  "forgotPassword": "¿Has olvidado tu contraseña?",
+  "loginSuccessTitle": "Inicio de sesión exitoso",
+  "loginSuccessSubTitle": "El inicio de sesión de su cuenta se ha realizado correctamente.",
+  "contact": "Contacto",
+  "tollFree": "Número de teléfono gratuito",
+  "email": "Correo electrónico",
+  "health": "StepAhead Health"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Contáctenos",
+  "name": "Nombre",
+  "name_placeholder": "Ingrese el nombre aquí",
+  "email": "Correo electrónico",
+  "email_placeholder": "Ingrese el correo electrónico aquí",
+  "subject": "Asunto",
+  "subject_placeholder": "Asunto",
+  "message": "Mensaje",
+  "message_placeholder": "Escribe tu mensaje aquí",
+  "send_button": "Enviar mensaje",
+  "contact": "Contacto",
+  "toll_free": "Número de teléfono gratuito",
+  "name_required": "Se requiere el nombre",
+  "email_required": "Correo electronico es requerido",
+  "subject_required": "El asunto es obligatorio",
+  "message_required": "El mensaje es requerido"
+}

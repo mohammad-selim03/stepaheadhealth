@@ -1,0 +1,214 @@
+{
+  "hero": {
+    "title": "Balance and Heal with StepAhead Health",
+    "description": "StepAhead Health's main aim is to support the ongoing solution to healthcare in the United States with the primary aim of assisting the deprived (those with no insurance and living in remote areas) to get access to better healthcare.",
+    "providers": "Providers",
+    "patientsHelped": "Patients Helped",
+    "cardDescription": "StepAhead Health's main aim is to support the ongoing solution to healthcare in the United States with the primary aim of assisting the deprived (those with no insurance and living in remote areas) to get access to better healthcare.",
+    "four": {
+      "title": "Confirm & Pay",
+      "description": "Review your order and insurance coverage. Pay securely with card, with stripe support"
+    },
+    "five": {
+      "title": "Wait for Approval",
+      "description": "Lorem ipsum dolor sit amet consectetur. Commodo pellentesque ac eleifend et sed mattis. Feugiat non elementum id erat lacinia"
+    }
+  },
+  "certified": {
+    "title": "Certified by Surescripts",
+    "description1": "The Surescripts Network Alliance™ includes virtually all EHRs, PBMs, pharmacies and clinicians, plus an increasing number of health plans, longterm and post-acute care organizations and specialty pharmacy organizations who connect to the Surescripts network.",
+    "description2": "The Surescripts Network Alliance convenes to provide actionable intelligence that enhances prescribing, informs care decisions and advances the healthcare industry"
+  },
+  "refill": {
+    "title": "Get Prescribed by our Top Providers",
+    "subtitle": "Don't know the medicines? No worries, our experienced providers will prescribe the medication for you.",
+    "steps": {
+      "one": {
+        "title": "Create Account",
+        "description": "Sign up with your name, email, and address. Securely access your prescriptions anytime."
+      },
+      "two": {
+        "title": "Search Pharmacy",
+        "description": "Find licensed pharmacies near you by ZIP code. Choose pickup or home delivery options."
+      },
+      "three": {
+        "title": "Describe the Illness",
+        "description": "Share your symptoms and medical history online. Upload existing prescriptions if available."
+      },
+      "four": {
+        "title": "Confirm & Pay",
+        "description": "Review your order and insurance coverage. Pay securely with card, with stripe support"
+      },
+      "five": {
+        "title": "Wait for Approval",
+        "description": "A Registered licensed provider reviews and sends your prescription to the pharmacy."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know, so you can use StepAhead Health like a pro.",
+    "categories": [
+      {
+        "categoryTitle": "Request a refills",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "Can I Refill My Prescription Online?",
+            "children": "Yes, many pharmacies and healthcare providers allow online prescription refills through their websites or mobile apps. You may need an account to access your prescription details."
+          },
+          {
+            "key": 2,
+            "label": "How Do I Get a Refill on My Prescription?",
+            "children": "You can request a refill by contacting your pharmacy directly, using their app, or asking your healthcare provider to send a new prescription."
+          },
+          {
+            "key": 3,
+            "label": "How Can I Refill My Prescription if I Have Run Out of Refills?",
+            "children": "If you're out of refills, your pharmacy may contact your prescriber for authorization, or you may need to schedule a new appointment with your doctor."
+          },
+          {
+            "key": 4,
+            "label": "Where Can I Get an Emergency Prescription Refill?",
+            "children": "Emergency refills may be available at select pharmacies depending on the medication and state laws. Some states allow a pharmacist to issue a limited emergency supply."
+          },
+          {
+            "key": 5,
+            "label": "Can You Get a Prescription Refill at a Different Pharmacy?",
+            "children": "Yes, but you’ll typically need to transfer your prescription. This can usually be done by contacting the new pharmacy, which will handle the transfer for you."
+          },
+          {
+            "key": 6,
+            "label": "How Can I Refill My Prescription Without Seeing a Doctor?",
+            "children": "Some medications may be eligible for telehealth refills, but controlled substances or first-time prescriptions usually require an in-person or video consultation."
+          },
+          {
+            "key": 7,
+            "label": "A Note About Online Prescription Refills",
+            "children": "Always ensure you're using a reputable and licensed pharmacy. Be cautious of websites offering prescription drugs without requiring a valid prescription."
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Price a medication",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "Can I Refill My Prescription Online?",
+            "children": "Yes, many pharmacies and healthcare providers allow online prescription refills through their websites or mobile apps. You may need an account to access your prescription details."
+          },
+          {
+            "key": 1,
+            "label": "How Do I Get a Refill on My Prescription?",
+            "children": "You can request a refill by contacting your pharmacy directly, using their app, or asking your healthcare provider to send a new prescription."
+          },
+          {
+            "key": 1,
+            "label": "How Can I Refill My Prescription if I Have Run Out of Refills?",
+            "children": "If you're out of refills, your pharmacy may contact your prescriber for authorization, or you may need to schedule a new appointment with your doctor."
+          },
+          {
+            "key": 1,
+            "label": "Where Can I Get an Emergency Prescription Refill?",
+            "children": "Emergency refills may be available at select pharmacies depending on the medication and state laws. Some states allow a pharmacist to issue a limited emergency supply."
+          },
+          {
+            "key": 1,
+            "label": "Can You Get a Prescription Refill at a Different Pharmacy?",
+            "children": "Yes, but you’ll typically need to transfer your prescription. This can usually be done by contacting the new pharmacy, which will handle the transfer for you."
+          },
+          {
+            "key": 1,
+            "label": "How Can I Refill My Prescription Without Seeing a Doctor?",
+            "children": "Some medications may be eligible for telehealth refills, but controlled substances or first-time prescriptions usually require an in-person or video consultation."
+          },
+          {
+            "key": 1,
+            "label": "A Note About Online Prescription Refills",
+            "children": "Always ensure you're using a reputable and licensed pharmacy. Be cautious of websites offering prescription drugs without requiring a valid prescription."
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Find a pharmacy",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "Can I Refill My Prescription Online?",
+            "children": "Yes, many pharmacies and healthcare providers allow online prescription refills through their websites or mobile apps. You may need an account to access your prescription details."
+          },
+          {
+            "key": 1,
+            "label": "How Do I Get a Refill on My Prescription?",
+            "children": "You can request a refill by contacting your pharmacy directly, using their app, or asking your healthcare provider to send a new prescription."
+          },
+          {
+            "key": 1,
+            "label": "How Can I Refill My Prescription if I Have Run Out of Refills?",
+            "children": "If you're out of refills, your pharmacy may contact your prescriber for authorization, or you may need to schedule a new appointment with your doctor."
+          },
+          {
+            "key": 1,
+            "label": "Where Can I Get an Emergency Prescription Refill?",
+            "children": "Emergency refills may be available at select pharmacies depending on the medication and state laws. Some states allow a pharmacist to issue a limited emergency supply."
+          },
+          {
+            "key": 1,
+            "label": "Can You Get a Prescription Refill at a Different Pharmacy?",
+            "children": "Yes, but you’ll typically need to transfer your prescription. This can usually be done by contacting the new pharmacy, which will handle the transfer for you."
+          },
+          {
+            "key": 1,
+            "label": "How Can I Refill My Prescription Without Seeing a Doctor?",
+            "children": "Some medications may be eligible for telehealth refills, but controlled substances or first-time prescriptions usually require an in-person or video consultation."
+          },
+          {
+            "key": 1,
+            "label": "A Note About Online Prescription Refills",
+            "children": "Always ensure you're using a reputable and licensed pharmacy. Be cautious of websites offering prescription drugs without requiring a valid prescription."
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Pay a bill",
+        "faqs": [
+          {
+            "key": 1,
+            "label": "Can I Refill My Prescription Online?",
+            "children": "Yes, many pharmacies and healthcare providers allow online prescription refills through their websites or mobile apps. You may need an account to access your prescription details."
+          },
+          {
+            "key": 1,
+            "label": "How Do I Get a Refill on My Prescription?",
+            "children": "You can request a refill by contacting your pharmacy directly, using their app, or asking your healthcare provider to send a new prescription."
+          },
+          {
+            "key": 1,
+            "label": "How Can I Refill My Prescription if I Have Run Out of Refills?",
+            "children": "If you're out of refills, your pharmacy may contact your prescriber for authorization, or you may need to schedule a new appointment with your doctor."
+          },
+          {
+            "key": 1,
+            "label": "Where Can I Get an Emergency Prescription Refill?",
+            "children": "Emergency refills may be available at select pharmacies depending on the medication and state laws. Some states allow a pharmacist to issue a limited emergency supply."
+          },
+          {
+            "key": 1,
+            "label": "Can You Get a Prescription Refill at a Different Pharmacy?",
+            "children": "Yes, but you’ll typically need to transfer your prescription. This can usually be done by contacting the new pharmacy, which will handle the transfer for you."
+          },
+          {
+            "key": 1,
+            "label": "How Can I Refill My Prescription Without Seeing a Doctor?",
+            "children": "Some medications may be eligible for telehealth refills, but controlled substances or first-time prescriptions usually require an in-person or video consultation."
+          },
+          {
+            "key": 1,
+            "label": "A Note About Online Prescription Refills",
+            "children": "Always ensure you're using a reputable and licensed pharmacy. Be cautious of websites offering prescription drugs without requiring a valid prescription."
+          }
+        ]
+      }
+    ]
+  }
+}

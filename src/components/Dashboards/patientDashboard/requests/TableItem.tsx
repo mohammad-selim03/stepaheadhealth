@@ -1,0 +1,284 @@
+import { useState } from "react";
+import { Table, Tabs } from "antd";
+import type { TabsProps } from "antd";
+import { imageProvider } from "../../../../lib/imageProvider";
+import { Link } from "react-router";
+import { useQuery } from "@tanstack/react-query";
+import { GetData } from "../../../../api/API";
+
+const TableItem = () => {
+  const [activeTab, setActiveTab] = useState("1");
+
+  const onChange = (key: string) => {
+    setActiveTab(key);
+  };
+
+  // Define the status based on the active tab
+  const getStatusByTab = (tabKey: string) => {
+    switch (tabKey) {
+      case "1":
+        return "";
+      case "2":
+        return "";
+      case "3":
+        return "Approved";
+      case "4":
+        return "Completed";
+      case "5":
+        return "Rejected";
+      default:
+        return "N/A";
+    }
+  };
+
+  // Use the status in the query
+  const { data } = useQuery({
+    queryKey: ["prescription", activeTab],
+    queryFn: () => {
+      // Build query parameters object
+      const queryParams: Record<string, string> = {};
+
+      // Only add prescriptionType if activeTab is 1 or 2 (or whatever your logic is)
+      if (activeTab === "1") {
+        queryParams.prescriptionType = "New";
+      } else if (activeTab === "2") {
+        queryParams.prescriptionType = "Refill";
+      }
+
+      // Only add status if getStatusByTab returns a value
+      const status = getStatusByTab(activeTab);
+      if (status) {
+        queryParams.status = status;
+      }
+
+      // Convert to query string
+      const queryString = new URLSearchParams(queryParams).toString();
+
+      return GetData(`prescription${queryString ? `?${queryString}` : ""}`);
+    },
+  });
+
+  // Transform API data to match your table structure
+  const dataSource =
+    (data &&
+      data?.prescriptions?.map((prescription: any, index: number) => ({
+        key: index.toString(),
+        RxID: `#Rx ${prescription.rxId || prescription.rxId || index}`,
+        MedicalProvider: (
+          <div className="flex gap-2 items-center">
+            <img
+              className="w-8 h-8 rounded-full object-cover"
+              src={
+                prescription.clinician?.clinicianProfile?.avatar ||
+                imageProvider.TableProfile
+              }
+            />
+            <p>
+              {prescription.clinician?.clinicianProfile?.firstName || "Unknown"}{" "}
+              {prescription.clinician?.clinicianProfile?.lastName || "Patient"}
+            </p>
+          </div>
+        ),
+        Date:
+          new Date(
+            prescription.createdAt || prescription.createdAt
+          ).toLocaleDateString("en-GB") || "N/A",
+        Type: prescription.prescriptionType || "N/A",
+        Status: prescription?.prescriptionStatus || "N/A",
+        Action: (
+          <Link to={`/patient-details/${prescription.id}`}>
+            <div className="text-nowrap underline font-semibold cursor-pointer font-nerisSemiBold text-textPrimary">
+              View Details
+            </div>
+          </Link>
+        ),
+      }))) ||
+    [];
+
+  const columns = [
+    {
+      title: "Rx ID",
+      dataIndex: "RxID",
+      key: "RxID",
+    },
+
+    {
+      title: "Date",
+      dataIndex: "Date",
+      key: "Date",
+    },
+    {
+      title: "Medical Provider",
+      dataIndex: "MedicalProvider",
+      key: "MedicalProvider",
+    },
+    {
+      title: "Status",
+      dataIndex: "Status",
+      key: "Status",
+
+      render: (prescription) => {
+        console.log("trans", prescription);
+        if (prescription === "In Progress") {
+          return (
+            <div className="bg-[#DBECFF] border border-[#0052B4] rounded-md px-2 py-1 w-2/3">
+              <p className="text-[#0052B4] text-center">In Progress</p>
+            </div>
+          );
+        } else if (prescription === "Completed") {
+          return (
+            <div className="bg-[#E2FFEB] border border-[#02A133] rounded-md px-2 py-1 w-2/3">
+              <p className="text-[#02A133] text-center">Completed</p>
+            </div>
+          );
+        } else if (prescription === "Pending") {
+          return (
+            <div className="bg-yellow-100/50 border border-yellow-500 rounded-md px-2 py-1 w-2/3">
+              <p className="text-yellow-600 text-center">Pending</p>
+            </div>
+          );
+        } else if (prescription === "Cancel") {
+          return (
+            <div className="bg-[#FFEBEB] border border-[#D80027] rounded-md px-2 py-1 w-2/3">
+              <p className="text-[#D80027] text-center">Canceled</p>
+            </div>
+          );
+        } else {
+          return (
+            <div className="bg-[#FFEBEB] border border-[#D80027] rounded-md px-2 py-1 w-2/3">
+              <p className="text-[#D80027] text-center">N/A</p>
+            </div>
+          );
+        }
+      },
+    },
+    {
+      title: "Action",
+      dataIndex: "Action",
+      key: "Action",
+    },
+  ];
+
+  const rowClassName = (_record: any, index: number) => {
+    return index % 2 === 0 ? "row-light-blue" : "row-light-gray";
+  };
+  const tabLabels = [
+    {
+      key: "1",
+      label: (
+        <div className="text-xs sm:text-sm md:text-base"> New RX Request </div>
+      ),
+      content: (
+        <div className="overflow-x-auto">
+          <Table
+            dataSource={dataSource}
+            columns={columns}
+            rowClassName={rowClassName}
+            scroll={{ x: "1400px" }}
+          />
+        </div>
+      ),
+    },
+    {
+      key: "2",
+      label: (
+        <div className="text-xs sm:text-sm md:text-base">
+          {" "}
+          RX Refills Requests{" "}
+        </div>
+      ),
+      content: (
+        <div className="overflow-x-auto">
+          <Table
+            dataSource={dataSource}
+            columns={columns}
+            rowClassName={rowClassName}
+            scroll={{ x: "1400px" }}
+          />
+        </div>
+      ),
+    },
+  ];
+
+  const items: TabsProps["items"] = tabLabels.map((tab) => ({
+    key: tab.key,
+    label: (
+      <div>
+        <p
+          className={`text-[#5A5C5F] font-Poppins font-light rounded-xl px-5 py-2 cursor-pointer transition-colors duration-300
+            ${
+              activeTab === tab.key
+                ? "bg-primaryColor text-white"
+                : "bg-[#F2F8FF] hover:bg-primaryColor hover:text-white"
+            }
+          `}
+        >
+          {tab.label}
+        </p>
+      </div>
+    ),
+  }));
+  const activeContent = tabLabels.find((tab) => tab.key === activeTab)?.content;
+
+  return (
+    <div className="bg-white mt-10 rounded-xl p-2 sm:p-5">
+      <div className=" flex justify-between">
+        <p className="font-nerisSemiBold md:text-2xl sm:text-xl text-base mt-5">
+          Overview
+        </p>
+        <>
+          <style>{`
+            .custom-tab-bar .ant-tabs-nav::before {
+              border-bottom: none !important;
+            }
+            .row-light-blue {
+              background-color: #F2F8FF;
+            }
+            .row-light-gray {
+              background-color: #FCFCFC;
+            }
+              @media (max-width:720px) {
+      .custom-tab-bar .ant-tabs-nav .ant-tabs-nav-list {
+        flex-direction: column !important;
+        
+       
+      }
+      .custom-tab-bar .ant-tabs-tab {
+      justify-content: end !important;
+        
+       
+        
+  
+        
+        
+      }
+    }
+          `}</style>
+
+          <Tabs
+            activeKey={activeTab}
+            onChange={onChange}
+            items={items}
+            size="large"
+            indicator={{ size: 0, align: "center" }}
+            className="custom-tab-bar"
+          />
+        </>
+      </div>
+      <div>
+        {activeTab === "1" ? (
+          <Table
+            dataSource={dataSource}
+            columns={columns}
+            rowClassName={rowClassName}
+            scroll={{ x: "1400px" }}
+          />
+        ) : (
+          activeContent
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default TableItem;

@@ -1,0 +1,20 @@
+{
+  "title": "Account Log In",
+  "emailLabel": "Email",
+  "emailPlaceholder": "Enter Email Here",
+  "emailRequired": "Email is required",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "Password",
+  "passwordRequired": "Password is required",
+  "passwordMinLength": "Password must be at least 8 characters",
+  "loginButton": "Log In",
+  "noAccount": "Don’t have an account?",
+  "registerNow": "Register Now",
+  "forgotPassword": "Forgot Password?",
+  "loginSuccessTitle": "Login Successfull",
+  "loginSuccessSubTitle": "Your account Login is success.",
+  "contact": "Contact",
+  "tollFree": "Toll Free Number",
+  "email": "Email",
+  "health": "StepAhead Health"
+}

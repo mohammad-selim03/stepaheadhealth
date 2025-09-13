@@ -1,0 +1,277 @@
+{
+  "Home": "Inicio",
+  "About": "Acerca de",
+  "Contact Us": "Contáctenos",
+  "Dashboard": "Tablero",
+  "Logout": "Cerrar sesión",
+  "Log In or Sign Up": "Iniciar sesión o registrarse",
+  "home": {
+    "hero": {
+      "title": "#1 Aplicación de Telemedicina: Consulta Médica en Línea 24/7",
+      "description": "¡Evita los viajes! Obtén asesoramiento médico experto desde la comodidad de tu hogar. Nuestra aplicación de telesalud te conecta con médicos y proveedores de atención médica experimentados.",
+      "discount": "¡Primera receta y resurtido con una tarifa de descuento inicial!",
+      "patientButton": "¿Paciente? Haga clic aquí",
+      "providerButton": "¿Proveedor? Haga clic aquí",
+      "downloadApp": "Obtén StepAhead Health en tu teléfono inteligente. ¡Descarga la aplicación ahora!",
+      "googlePlay": "Consíguelo en Google Play",
+      "appStore": "Descárgalo en la App Store"
+    },
+    "works": {
+      "title": "¿Cómo funciona nuestra aplicación de telemedicina?",
+      "description": "Pocos pasos simples para alcanzar su receta:",
+      "steps": [
+        {
+          "title": "Crear nueva receta",
+          "description": "Inicie sesión en su cuenta y cree una nueva receta seleccionando sus medicamentos y la farmacia deseada."
+        },
+        {
+          "title": "Esperar aprobación",
+          "description": "Nuestros principales proveedores verificarán su receta y le darán una aprobación y un consejo en 15 minutos."
+        },
+        {
+          "title": "¡Paga y listo!",
+          "description": "¡Pagarás los honorarios del proveedor y listo! su receta será enviada a su farmacia."
+        }
+      ]
+    },
+    "service": {
+      "title": "¿Qué servicio de telesalud estás buscando?",
+      "description": "¿Resurtidos de recetas instantáneos, pruebas de laboratorio o citas médicas en línea?",
+      "cards": {
+        "refills": {
+          "title": "Resurtidos de recetas",
+          "description": "Obtenga un resurtido de recetas instantáneo de nuestros proveedores experimentados de primer nivel sin problemas.",
+          "button": "Solicitar un resurtido"
+        },
+        "consultation": {
+          "title": "Consulta médica en línea",
+          "description": "Realice consultas en línea rápidas y sin complicaciones con nuestros principales proveedores.",
+          "button": "Reservar una cita"
+        }
+      }
+    },
+    "provider": {
+      "title": "¿Eres un proveedor?",
+      "description": "Estaremos encantados de atenderle. Regístrese para obtener su cuenta de proveedor de telesalud gratuita. La comunidad de la salud necesita su experiencia y práctica.",
+      "button": "Crear una cuenta de proveedor"
+    },
+    "smart": {
+      "title": "Comencemos de forma inteligente",
+      "description": "Obtén StepAhead Health en tu teléfono inteligente. <br /> ¡Descarga nuestra aplicación ahora!",
+      "googlePlay": "Consíguelo en Google Play",
+      "appStore": "Descárgalo en la App Store"
+    },
+    "start": {
+      "title": "¡Empecemos!",
+      "provider": {
+        "title": "¿Eres un proveedor?",
+        "description": "El servicio le permite obtener la máxima visibilidad en línea y gestionar citas y contactos procedentes del sitio, de una manera sencilla y rápida.",
+        "button": "Abrir cuenta"
+      },
+      "patient": {
+        "title": "¿Eres un paciente?",
+        "description": "El servicio le permite obtener la máxima visibilidad en línea y gestionar citas y contactos procedentes del sitio, de una manera sencilla y rápida.",
+        "button": "Registrate gratis"
+      }
+    },
+    "topdiseases": {
+      "title": "Principales enfermedades que tratamos",
+      "subtitle": "Nuestros proveedores experimentados pueden ayudarlo con una amplia gama de afecciones. Estas son algunas de las enfermedades más comunes que tratamos.",
+      "diseases": [
+        "Alergias",
+        "Conjuntivitis (ojo rosado)",
+        "Gota",
+        "Artritis",
+        "Infección de oido",
+        "Hepatitis",
+        "Bronquitis",
+        "Eczema (dermatitis)",
+        "Hipotiroidismo",
+        "Enfermedades cardiovasculares",
+        "Fibromialgia",
+        "Enfermedad inflamatoria intestinal (EII)",
+        "Enfermedad renal crónica",
+        "Gastroenteritis",
+        "Gripe (influenza)",
+        "Enfermedad pulmonar obstructiva crónica (EPOC)",
+        "Enfermedad por reflujo gastroesofágico (ERGE)",
+        "Enfermedad de Lyme",
+        "Resfriado comun",
+        "Problemas gastrointestinales (p. ej., indigestión, reflujo)",
+        "Osteoporosis",
+        "Enfermedad arterial periférica",
+        "Neumonía",
+        "Trastornos de la tiroides",
+        "Infección del tracto urinario (ITU)"
+      ]
+    },
+    "topmedicalconditions": {
+      "title": "Principales condiciones médicas que tratamos",
+      "conditions": [
+        "Dolor abdominal",
+        "Ansiedad",
+        "Asma",
+        "Dolor de espalda",
+        "Cambios en los hábitos intestinales",
+        "Dolor de pecho",
+        "Cambios cognitivos (pérdida de memoria, confusión)",
+        "Estreñimiento",
+        "Obesidad",
+        "Tos",
+        "Hinchazón",
+        "Problemas de visión",
+        "Depresión",
+        "Dermatitis (inflamación de la piel)",
+        "Diabetes",
+        "Diarrea",
+        "Mareo",
+        "Fatiga",
+        "Fiebre",
+        "Pérdida de la audición",
+        "Erupciones en la piel",
+        "Dolor de garganta (faringitis)",
+        "Infecciones de las vías respiratorias superiores (resfriados)",
+        "Pérdida de peso",
+        "Colesterol alto",
+        "Hipertensión (presión arterial alta)",
+        "Insomnio",
+        "Dolor en las articulaciones",
+        "Trastornos menstruales",
+        "Migrañas/dolores de cabeza",
+        "Dolores o molestias musculares",
+        "Náuseas",
+        "Trastornos del sueño",
+        "Esguinces y torceduras",
+        "Vértigo"
+      ]
+    },
+    "topmedications": {
+      "title": "Principales medicamentos que recetamos",
+      "subtitle": "Nuestros proveedores experimentados pueden recetar una amplia gama de medicamentos para ayudarlo con su afección.",
+      "medications": [
+        "Albuterol (para el asma)",
+        "Amlodipino (para la presión arterial alta)",
+        "Amoxicilina (antibiótico)",
+        "Aspirina (anticoagulante, analgésico)",
+        "Atorvastatina (para el colesterol)",
+        "Azitromicina (antibiótico)",
+        "Benzonatato (supresor de la tos)",
+        "Bupropión (para la depresión y para dejar de fumar)",
+        "Carvedilol (para la insuficiencia cardíaca)",
+        "Celecoxib (medicamento antiinflamatorio no esteroideo)",
+        "Cefalexina (antibiótico)",
+        "Citalopram (para la depresión)",
+        "Clopidogrel (anticoagulante)",
+        "Crestor (para el colesterol)",
+        "Doxiciclina (antibiótico)",
+        "Duloxetina (para la ansiedad y la depresión)",
+        "Escitalopram (para la depresión y la ansiedad)",
+        "Esomeprazol (para el reflujo ácido)",
+        "Ezetimiba/simvastatina (para el colesterol)",
+        "Fluticasona (corticosteroide inhalado)",
+        "Furosemida (diurético)",
+        "Gabapentina (para el dolor neuropático)",
+        "Hidroclorotiazida (diurético)",
+        "Hidrocodona/acetaminofén (analgésico)",
+        "Ibuprofeno (analgésico)",
+        "Levotiroxina (para el hipotiroidismo)",
+        "Lisinopril (para la presión arterial alta)",
+        "Lorazepam (ansiedad)",
+        "Losartán (para la presión arterial alta)",
+        "Meloxicam (medicamento antiinflamatorio no esteroideo)",
+        "Metformina (para la diabetes)",
+        "Metoprolol (para la presión arterial alta)",
+        "Metronidazol (antibiótico)",
+        "Mirtazapina (para la depresión)",
+        "Montelukast (para las alergias y el asma)",
+        "Mounjaro (control de peso)",
+        "Naproxeno (analgésico)",
+        "Nexium (para el reflujo ácido)",
+        "Omeprazol (para el reflujo ácido)",
+        "Oxicodona/acetaminofén (analgésico)",
+        "Ozempic (pérdida de peso)",
+        "Pantoprazol (para el reflujo ácido)",
+        "Prednisona (esteroide)",
+        "Quetiapina (para el trastorno bipolar)",
+        "Ranitidina (reductor de ácido)",
+        "Sertralina (para la depresión)",
+        "Sinvastatina (para el colesterol)",
+        "Tadalafilo (para la disfunción eréctil)",
+        "Tamsulosina (para el agrandamiento de la próstata)",
+        "Tramadol (analgésico)",
+        "Venlafaxina (para la depresión)",
+        "Warfarina (anticoagulante)"
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Todo lo que necesita saber para poder utilizar StepAhead Health como un profesional.",
+      "faqs": [
+        {
+          "key": 1,
+          "label": "Todo lo que necesita saber para poder utilizar StepAhead Health como un profesional.",
+          "children": "Todo lo que necesita saber para poder utilizar StepAhead Health como un profesional."
+        },
+        {
+          "key": 2,
+          "label": "Una nota sobre las recargas de recetas en línea",
+          "children": "Una nota sobre las recargas de recetas en línea"
+        },
+        {
+          "key": 3,
+          "label": "¿Cómo obtengo una recarga de mi receta?",
+          "children": "¿Cómo obtengo una recarga de mi receta?"
+        },
+        {
+          "key": 4,
+          "label": "¿Cómo puedo resurtir mi receta si se me acabaron las recargas?",
+          "children": "¿Cómo puedo resurtir mi receta si se me acabaron las recargas?"
+        },
+        {
+          "key": 5,
+          "label": "¿Cómo puedo localizar una farmacia de la red en mi área?",
+          "children": "¿Cómo puedo localizar una farmacia de la red en mi área?"
+        },
+        {
+          "key": 6,
+          "label": "¿Dónde puedo obtener una recarga de recetas de emergencia?",
+          "children": "¿Dónde puedo obtener una recarga de recetas de emergencia?"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "surescripts": "StepAhead Health cuenta con la certificación Surescripts para la renovación de recetas.",
+    "certifiedBy": "Certificado por",
+    "usefulLinks": "Enlaces útiles",
+    "createProviderAccount": "Crear cuenta de proveedor",
+    "createPatientAccount": "Crear cuenta de paciente",
+    "login": "Iniciar sesión",
+    "termsOfService": "Términos de servicio",
+    "getInTouch": "Conócenos",
+    "aboutUs": "Sobre nosotros",
+    "howItWorks": "¿Cómo funciona?",
+    "contact": "Contacto",
+    "tollFree": "Número gratuito: +1-(855)-725-7629",
+    "phone": "Teléfono: +1-(678)-820-2221",
+    "email": "contact@stepaheadhealth.com",
+    "copyright": "© 2024 Totalmente engalanado. Reservados todos los derechos"
+  },
+  "welcome_back": "Bienvenido de nuevo, {{firstName}} {{lastName}}",
+  "coming_up_activity": "Esto es lo que se avecina y su actividad reciente.",
+  "completed_request": "Solicitud completada",
+  "new_request": "Nueva solicitud",
+  "in_progress": "En curso",
+  "something_went_wrong": "Algo salió mal.",
+  "rx_id": "Rx ID",
+  "patient_name": "Nombre del paciente",
+  "date": "Fecha",
+  "type": "Tipo",
+  "status": "Estado",
+  "action": "Acción",
+  "view_details": "Ver detalles",
+  "all": "Todos",
+  "cancel": "Cancelar",
+  "overview": "Visión general",
+  "something_went_wrong_try_again": "Algo salió mal, inténtalo de nuevo más tarde."
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Contact Us",
+  "name": "Name",
+  "name_placeholder": "Enter Name Here",
+  "email": "Email",
+  "email_placeholder": "Enter email here",
+  "subject": "Subject",
+  "subject_placeholder": "Subject",
+  "message": "Message",
+  "message_placeholder": "Write your message here",
+  "send_button": "Send Message",
+  "contact": "Contact",
+  "toll_free": "Toll Free Number",
+  "name_required": "Name is required",
+  "email_required": "Email is required",
+  "subject_required": "Subject is required",
+  "message_required": "Message is required"
+}

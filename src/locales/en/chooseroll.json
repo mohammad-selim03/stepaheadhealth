@@ -1,0 +1,8 @@
+{
+  "title": "Choose your Role",
+  "subtitle": "Let us know how you’ll use the app. Select your role below to continue.",
+  "providerButton": "As a Provider",
+  "patientButton": "As a Patient",
+  "nextButton": "Next",
+  "error": "Select Your Role"
+}
