@@ -20,22 +20,22 @@ const TelehealthServices = () => {
             <div className="flex flex-col gap-2 text-white items-center bg-primaryColor w-fit px-2 py-6 rounded-xl">
               <p className="font-nerisBlack text-3xl">01+</p>
               <p className="text-sm text-center text-nowrap">
-                {t("telehealth.steps.one.title")}
+                {t("refill.steps.one.title")}
               </p>
             </div>
             <p className="bg-white border border-gray-200 p-8 rounded-xl  font-nerisLight">
-              {t("telehealth.steps.one.description")}
+              {t("refill.steps.one.description")}
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 rounded-lg w-full ">
             <p className="bg-white border border-gray-200 p-8 rounded-xl  font-nerisLight">
-              {/* {t("telehealth.steps.two.description")} */}
-             {t("telehealth.steps.two.description")}
+              {/* {t("refill.steps.two.description")} */}
+             {t("refill.steps.two.description")}
             </p>
             <div className="flex flex-col gap-2 text-white items-center bg-primaryColor w-fit px-5 py-3 rounded-xl">
               <p className="font-nerisBlack text-3xl">02+</p>
               <p className="text-sm text-center">
-                {t("telehealth.steps.two.title")}
+                {t("refill.steps.two.title")}
               </p>
             </div>
           </div>
@@ -43,35 +43,35 @@ const TelehealthServices = () => {
             <div className="flex flex-col gap-2 text-white items-center bg-primaryColor w-fit px-5 py-3 rounded-xl">
               <p className="font-nerisBlack text-3xl">03+</p>
               <p className="text-sm text-center">
-                {t("telehealth.steps.three.title")}
+                {t("refill.steps.three.title")}
               </p>
             </div>
             <p className="bg-white border border-gray-200 p-8 rounded-xl  font-nerisLight">
-              {t("telehealth.steps.three.description")}
+              {t("refill.steps.three.description")}
            
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 rounded-lg w-full ">
             <p className="bg-white border border-gray-200 p-8 rounded-xl  font-nerisLight">
-              {t("telehealth.steps.four.description")}
+              {t("refill.steps.four.description")}
             
             </p>
             <div className="flex flex-col gap-2 text-white items-center bg-primaryColor w-fit px-6 py-3 rounded-xl">
               <p className="font-nerisBlack text-3xl">04+</p>
               <p className="text-sm text-center">
-                {t("telehealth.steps.four.title")}
+                {t("refill.steps.four.title")}
               </p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 rounded-lg w-full ">
             <p className="bg-white border border-gray-200 p-8 rounded-xl  font-nerisLight">
-              {t("telehealth.steps.five.description")}A Registered
+              {t("refill.steps.five.description")}A Registered
             
             </p>
             <div className="flex flex-col gap-2 text-white items-center bg-primaryColor w-fit px-5 py-3 rounded-xl">
               <p className="font-nerisBlack text-3xl">05+</p>
               <p className="text-sm text-center">
-                {t("telehealth.steps.five.title")}
+                {t("refill.steps.five.title")}
               </p>
             </div>
           </div>
