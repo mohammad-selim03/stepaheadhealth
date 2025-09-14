@@ -82,7 +82,7 @@ const SignUp = () => {
   // hooks.ts or inside your component
   const verifyNpi = async (id: number, combinedData: registerpayload) => {
     try {
-      const response = await axios.get(`/api/npi/?version=2.1&number=${id}`);
+      const response = await axios.get(`https://issaq-mern-express-sh0n.onrender.com/api/v1/clinician/npi-registry-data?npi=${id}`);
 
       console.log("NPI verification data:", response?.data?.result_count);
       const success = response?.data?.result_count;
