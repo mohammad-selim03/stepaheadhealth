@@ -1,23 +1,24 @@
- 
-import { Link } from "react-router"; 
+import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 import { imageProvider } from "../../../lib/imageProvider";
 import { Button } from "antd";
-import { AppleIcon, PlaystoreIcon } from "./HomeIcons";
-import { useQuery } from "@tanstack/react-query";
-import { GetData } from "../../../api/API";
+import { AppleIcon, PlaystoreIcon } from "./HomeIcons"; 
 
 const Hero = () => {
   const { t } = useTranslation();
   const role = JSON.parse(localStorage.getItem("role") || "null");
-  const query = role == "Patient" ? "patient/profile" : "clinician/profile";
-  const { data } = useQuery({
-    queryKey: ["profile"],
-    queryFn: () => GetData(query),
-  });
+  // const query = role == "Patient" ? "patient/profile" : "clinician/profile";
+ 
   const isProfileCreated = JSON.parse(
     localStorage.getItem("is_profile_created") || "null"
   );
+
+  const token = JSON.parse(localStorage.getItem("token") || "null");
+
+  if (!token) {
+    localStorage.removeItem("role");
+  }
+
   return (
     <div className="py-10">
       <div className="flex flex-col lg:flex-row items-center gap-5">
