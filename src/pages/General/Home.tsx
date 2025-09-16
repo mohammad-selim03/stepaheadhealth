@@ -9,17 +9,15 @@ import TopDiseases from "../../components/Generals/Home/TopDiseases";
 import TopMedicalConditions from "../../components/Generals/Home/TopMedicalConditions";
 import TopMedications from "../../components/Generals/Home/TopMedications";
 import Works from "../../components/Generals/Home/Works";
-import Container from "../../components/shared/Container";
-import { useTranslation } from "react-i18next";
+import Container from "../../components/shared/Container"; 
 import { GetData } from "../../api/API";
 
-const Home = () => {
-  const { t } = useTranslation();
+const Home = () => { 
 
   const role = JSON.parse(localStorage.getItem("role") || "null");
 
   const query = role === "Clinician" ? "clinician/profile" : "patient/profile";
-  const { data, isLoading, error } = useQuery({
+  const { data} = useQuery({
     queryKey: ["profile"],
     queryFn: () => GetData(query),
   });

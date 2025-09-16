@@ -1,4 +1,4 @@
-import { Link, useNavigate, useParams, useSearchParams } from "react-router";
+import { Link, useNavigate} from "react-router";
 import { CallbtnSvg, LocationSvg, MailtoSvg } from "../../assets/svgContainer";
 import Container from "../../components/shared/Container";
 import { imageProvider } from "../../lib/imageProvider";
