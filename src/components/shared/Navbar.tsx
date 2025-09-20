@@ -6,7 +6,7 @@ import Container from "./Container";
 import { Dropdown, Space } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import { useEffect, useState } from "react";
-import { SpanishSvg, UkSvg } from "../../assets/svgContainer";
+import { SpanishSvg, } from "../../assets/svgContainer";
 import { Drawer } from "antd";
 import type { DrawerProps } from "antd";
 import { useAuth } from "../../provider/AuthContext";
@@ -147,6 +147,7 @@ const Navbar = () => {
     queryKey: ["profile"],
     queryFn: () => GetData(query),
   });
+ 
 
   const getDashboardRoute = () => {
     const isEmptyData = data === undefined || data === null;
@@ -156,7 +157,7 @@ const Navbar = () => {
     }
 
     if (userInfo?.role === "Clinician") {
-      return isEmptyData ? "/provider-steps" : "/provider-dashboard";
+      return isEmptyData ? "/provider-steps" : userInfo.idpVerified === true ? "/provider-dashboard": "/idp/verification";
     }
 
     return "/"; // fallback if role is not Patient or Clinician

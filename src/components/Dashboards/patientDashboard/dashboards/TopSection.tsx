@@ -398,7 +398,7 @@ const TopSection = () => {
                             <Upload
                               multiple={true}
                               accept="image/*,.pdf"
-                              className="custom-upload"
+                              className="w-full "
                               listType="picture-card"
                               name="avatar"
                               fileList={fileList}

@@ -41,6 +41,7 @@ const Setp2 = forwardRef(
       localStorage.setItem("state", JSON.stringify(data?.state));
       setData((prev) => ({ ...prev, ...data }));
       onNext(data);
+      // console.log("dddd", data)
       const info = {
         city: data?.city,
         state: data?.state,
@@ -75,9 +76,9 @@ const Setp2 = forwardRef(
           selectedState
         );
         setCityOptions(
-          cities.map((city) => ({
-            label: city.name,
-            value: city.name,
+          cities?.map((city) => ({
+            label: city?.name,
+            value: city?.name,
           }))
         );
 
@@ -237,20 +238,7 @@ const Setp2 = forwardRef(
               <span className="text-red-500">{t("stateRequired")}</span>
             )}
           </div>
-
-          {/* <div className="flex gap-2 items-start flex-col mt-6">
-            <label className="text-textPrimary font-nerisSemiBold">City</label>
-            <input
-              {...register("city", { required: true })}
-              placeholder="Enter City"
-              type="text"
-              className="text-textSecondary font-Poppins font-light outline outline-[#E5E5E5] bg-white rounded-md px-4 py-3 w-full focus:outline-[#1677ff]"
-            />
-            {errors.city && (
-              <span className="text-red-500">City is required</span>
-            )}
-          </div> */}
-
+ 
           {/* city selector */}
           <div className="flex gap-2 items-start flex-col mt-6">
             <label className="text-textPrimary font-nerisSemiBold">

@@ -209,9 +209,9 @@ const Setp3 = forwardRef<Setp3Handle, { onNext: (data: Inputs) => void }>(
     }, [pharmacyValue, pharmacyOptions, setValue]);
 
     const searchPharmacies = async () => {
-      const { name, state, zip } = getValues();
+      const { name, state, zip, city } = getValues();
 
-      if (!name && !state && !zip) {
+      if (!name && !state && !zip || !city) {
         toast.error(
           "Please provide at least one search criteria (city, state, or zip code)"
         );
@@ -248,7 +248,7 @@ const Setp3 = forwardRef<Setp3Handle, { onNext: (data: Inputs) => void }>(
         setShowSearchResults(false);
         // Auto-fill other fields
         setValue("name", pharmacy.StoreName || "");
-        // setValue("city", pharmacy.City || "");
+        setValue("city", pharmacy.City || "");
         setValue("state", pharmacy.State || "");
         setValue("zip", pharmacy.ZipCode || "");
       }
@@ -260,7 +260,7 @@ const Setp3 = forwardRef<Setp3Handle, { onNext: (data: Inputs) => void }>(
         storeName: selectedPharmacy?.StoreName,
         address1: selectedPharmacy?.Address1,
         address2: selectedPharmacy?.Address2,
-        // city: selectedPharmacy?.City,
+        city: selectedPharmacy?.City,
         state: selectedPharmacy?.State,
         zipCode: selectedPharmacy?.ZipCode,
         primaryPhone: selectedPharmacy?.PrimaryPhone,

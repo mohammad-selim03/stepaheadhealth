@@ -28,7 +28,6 @@ const Step4 = forwardRef(
   (
     {
       onNext,
-      doesData,
     }: {
       onNext: (data: Inputs) => void;
       setData: Dispatch<SetStateAction<Inputs>>;
@@ -47,6 +46,7 @@ const Step4 = forwardRef(
     });
     const { data: allData, setData } = useContext(MainContext);
     const navigator = useNavigate();
+    // const userInfo = JSON.parse(localStorage.getItem("userInfo") || "null");
 
     const ProviderPaymentInfo = useMutation({
       mutationKey: ["clinician/profile"],
@@ -55,6 +55,12 @@ const Step4 = forwardRef(
         console.log("pay data", data);
         // setData({ ...data });
         onNext();
+        localStorage.setItem("is_profile_created", "true");
+        // const data = {
+        //   ...userInfo,
+        //   is_profile_created: true,
+        // };
+        // localStorage.setItem("userInfo", JSON.stringify(data));
         navigator("/image-upload2");
       },
       onError: (err) => {
@@ -99,7 +105,9 @@ const Step4 = forwardRef(
           <div className="grid lg:grid-cols-2 gap-x-5 gap-y-5">
             {/* Prescription Fees */}
             <div className="flex gap-2 items-start flex-col">
-              <label className="font-semibold">{t("newprescriptionfees")}</label>
+              <label className="font-semibold">
+                {t("newprescriptionfees")}
+              </label>
               <input
                 {...register("newPrescriptionFees", {
                   required: t("newprescriptionfeesrequired"),
@@ -116,7 +124,9 @@ const Step4 = forwardRef(
               )}
             </div>
             <div className="flex gap-2 items-start flex-col">
-              <label className="font-semibold">{t("refillprescriptionfees")}</label>
+              <label className="font-semibold">
+                {t("refillprescriptionfees")}
+              </label>
               <input
                 {...register("refillPrescriptionFees", {
                   required: t("refillprescriptionfeesrequired"),
